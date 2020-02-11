@@ -1,4 +1,4 @@
-# @twbs/hugo-bin [![npm version](https://img.shields.io/npm/v/@twbs/hugo-bin.svg)](https://www.npmjs.com/package/@twbs/hugo-bin) [![Build Status](https://img.shields.io/travis/twbs/hugo-bin/master.svg)](https://travis-ci.org/twbs/hugo-bin) [![dependencies Status](https://img.shields.io/david/twbs/hugo-bin.svg)](https://david-dm.org/twbs/hugo-bin) [![devDependencies Status](https://img.shields.io/david/dev/twbs/hugo-bin.svg)](https://david-dm.org/twbs/hugo-bin?type=dev)
+# @twbs/hugo-bin [![npm version](https://img.shields.io/npm/v/@twbs/hugo-bin.svg)](https://www.npmjs.com/package/@twbs/hugo-bin) [![Build Status](https://github.com/twbs/hugo-bin/workflows/CI/badge.svg)](https://github.com/twbs/hugo-bin/actions?workflow=CI) [![dependencies Status](https://img.shields.io/david/twbs/hugo-bin.svg)](https://david-dm.org/twbs/hugo-bin) [![devDependencies Status](https://img.shields.io/david/dev/twbs/hugo-bin.svg)](https://david-dm.org/twbs/hugo-bin?type=dev)
 
 > Binary wrapper for [Hugo](https://gohugo.io/)
 
