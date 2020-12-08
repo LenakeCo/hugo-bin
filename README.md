@@ -1,11 +1,11 @@
-# hugo-bin [![npm version](https://img.shields.io/npm/v/hugo-bin.svg)](https://www.npmjs.com/package/hugo-bin) [![Build Status](https://img.shields.io/travis/fenneclab/hugo-bin/master.svg)](https://travis-ci.org/fenneclab/hugo-bin) [![dependencies Status](https://img.shields.io/david/fenneclab/hugo-bin.svg)](https://david-dm.org/fenneclab/hugo-bin) [![devDependencies Status](https://img.shields.io/david/dev/fenneclab/hugo-bin.svg)](https://david-dm.org/fenneclab/hugo-bin?type=dev)
+# @twbs/hugo-bin [![npm version](https://img.shields.io/npm/v/@twbs/hugo-bin.svg)](https://www.npmjs.com/package/@twbs/hugo-bin) [![Build Status](https://img.shields.io/travis/twbs/hugo-bin/master.svg)](https://travis-ci.org/twbs/hugo-bin) [![dependencies Status](https://img.shields.io/david/twbs/hugo-bin.svg)](https://david-dm.org/twbs/hugo-bin) [![devDependencies Status](https://img.shields.io/david/dev/twbs/hugo-bin.svg)](https://david-dm.org/twbs/hugo-bin?type=dev)
 
 > Binary wrapper for [Hugo](https://gohugo.io/)
 
 ## Install
 
 ```sh
-npm install hugo-bin --save-dev
+npm install @twbs/hugo-bin --save-dev
 ```
 
 hugo-bin now supports the [Extended Hugo version](https://github.com/gohugoio/hugo/releases/tag/v0.43). See [Installation options](#installation-options) for more details.
@@ -16,7 +16,7 @@ hugo-bin now supports the [Extended Hugo version](https://github.com/gohugoio/hu
 
 ```js
 const { execFile } = require('child_process');
-const hugo = require('hugo-bin');
+const hugo = require('@twbs/hugo-bin');
 
 execFile(hugo, ['version'], (error, stdout) => {
   if (error) {
@@ -84,7 +84,7 @@ Also as an environment variable:
 export HUGO_BIN_BUILD_TAGS="extended"
 ```
 
-**Note that you have to run `npm install hugo-bin` to re-install hugo-bin itself, if you change any of these options.**
+**Note that you have to run `npm install @twbs/hugo-bin` to re-install @twbs/hugo-bin itself, if you change any of these options.**
 
 ### Options
 

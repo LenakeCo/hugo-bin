@@ -1,9 +1,9 @@
 {
-  "name": "hugo-bin",
+  "name": "@twbs/hugo-bin",
   "version": "0.68.0",
   "hugoVersion": "0.80.0",
   "description": "Binary wrapper for Hugo",
-  "repository": "fenneclab/hugo-bin",
+  "repository": "twbs/hugo-bin",
   "author": "satoshun00 <shun.sato@fenneclab.com>",
   "license": "MIT",
   "main": "index.js",
@@ -34,6 +34,9 @@
   ],
   "engines": {
     "node": ">=10"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
