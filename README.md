@@ -60,16 +60,14 @@ See the [Hugo Documentation](https://gohugo.io/) for more information.
 
 hugo-bin supports options to change the variation of Hugo binaries.
 
-Each option can be configured in the `config.hugo-bin` section of your `package.json`:
+Each option can be configured in the `hugo-bin` section of your `package.json`:
 
 ```json
 {
   "name": "your-package",
   "version": "0.0.1",
-  "config": {
-    "hugo-bin": {
-      "buildTags": "extended"
-    }
+  "hugo-bin": {
+    "buildTags": "extended"
   }
 }
 ```
